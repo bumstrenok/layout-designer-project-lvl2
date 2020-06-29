@@ -1,0 +1,38 @@
+.order-flex {
+    display: flex;
+}
+
+.text-style{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.header {
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+        text-decoration: none;
+        padding: 10px;
+        color: $main-grey;
+    }
+
+    .color-white {
+        color: $white;
+    }
+}
+
+.search-style {
+    background: $dark-grey;
+    border-radius: 50px;
+    border: none;
+    padding: 9px 14px;
+    width: 100%;
+    color: $main-grey;
+    
+}

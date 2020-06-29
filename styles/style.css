@@ -1,5 +1,36 @@
-#body {
-  font-family: Roboto, sans-serif;
+.order-flex {
+  display: flex;
+}
+
+.text-style {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.header {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header a {
+  text-decoration: none;
+  padding: 10px;
+  color: #808080;
+}
+.header .color-white {
+  color: #fff;
+}
+
+.search-style {
+  background: #3C3B3D;
+  border-radius: 50px;
+  border: none;
+  padding: 9px 14px;
+  width: 100%;
+  color: #808080;
 }
 
 /*# sourceMappingURL=style.css.map */
