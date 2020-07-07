@@ -3,21 +3,22 @@
 }
 
 .text-style{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 11px;
 }
 
 .header {
-    text-transform: uppercase;
-
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 10;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-
+    text-transform: uppercase;
     a {
-        text-decoration: none;
         padding: 10px;
         color: $main-grey;
     }
@@ -29,10 +30,13 @@
 
 .search-style {
     background: $dark-grey;
+    width: 278px;
+    height: 25.71px;
+    left: 1560px;
+    top: 25px;
+
     border-radius: 50px;
-    border: none;
-    padding: 9px 14px;
-    width: 100%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
     color: $main-grey;
-    
+    padding-left: 10px;
 }

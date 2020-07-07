@@ -1,0 +1,53 @@
+.footer {
+    background: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
+    padding-top: 80px;
+    
+    color: $footer-text;
+
+    a {
+        color: $footer-text;
+    }
+}
+
+.footer-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.footer-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 280px;
+    line-height: 40px;
+    padding-bottom: 80px;
+}
+
+.social {
+    padding: 5px;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: $white;
+}
+
+.button-footer {
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    margin: 5px;
+}
