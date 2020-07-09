@@ -1,7 +1,5 @@
 .footer {
-    background: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
-    padding-top: 80px;
-    
+    background: linear-gradient(89.02deg, $purple 32.83%, $dark-orange 81.56%);
     color: $footer-text;
 
     a {
@@ -9,21 +7,9 @@
     }
 }
 
-.footer-block{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
 .footer-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 280px;
     line-height: 40px;
-    padding-bottom: 80px;
 }
 
 .social {
@@ -39,13 +25,6 @@
 
 .button-footer {
     padding: 50px 0;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.information {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .link {
