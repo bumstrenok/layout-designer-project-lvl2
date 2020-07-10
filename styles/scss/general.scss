@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     margin: 0;
     text-decoration: none;
 }
@@ -48,6 +49,10 @@ h3 {
     justify-content: space-evenly;
 }
 
+.js-start {
+    justify-content: flex-start;
+}
+
 .js-center {
     justify-content: center;
 }
@@ -73,4 +78,69 @@ h3 {
 
 .pd-top-50 {
     padding-top: 50px;
+}
+
+
+.width-280 {
+    width: 280px;
+}
+.width-33 {
+    width: 33%;
+}
+.width-45 {
+    width: 45%;
+}
+
+.btn {
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+}
+
+/*font-size*/
+
+.font-size-60 {
+    font-size: 60px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-11 {
+    font-size: 11px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-38 {
+    font-size: 38px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.font-size-22 {
+    font-size: 22px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.color-grey {
+    color: $main-grey;
 }

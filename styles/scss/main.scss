@@ -9,7 +9,6 @@
     margin-bottom: 50px;
 
     h2 {
-        font-size: 28px;
         margin-bottom: 0px;
         font-weight: normal;
         margin-top: 25px;
@@ -31,21 +30,15 @@
 .subscribe-content {
     height: 55%;
     margin: 25px;
-
-    p {
-        font-size: 11px;
-    }
 }
 
 .subscribe-sum {
     h3 {
-        font-size: 60px;
         padding-right: 10px;
         font-weight: normal;
     }
 
     h4 {
-        font-size: 30px;
         font-weight: normal;
     }
 }
@@ -53,21 +46,17 @@
 .btn-subscribe {
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 24px;
     border: 4px solid $white;
     padding: 5% 18%;
     color: $white;
 }
 
 .author {
-    padding-left: 50px;
     h3 {
         font-weight: normal;
-        font-size: 30px;
     }
 
     p {
-        font-size: 14px;
         color: $news-text;
     }
 }
@@ -79,7 +68,6 @@
 
     h4 {
         font-weight: normal;
-        font-size: 12px;
         color: $orange;
         padding-left: 20px;
         padding-top: 3px;
@@ -90,10 +78,6 @@
     width: 1px;
     height: 11px;
     background: $white;
-
-    p {
-        font-size: 12px;
-    }
 }
 
 .btn-new {
@@ -102,7 +86,6 @@
     padding: 6px 30px;
     color: $news-text;
     text-transform: uppercase;
-    font-size: 12px;
 }
 
 .mobile {
@@ -120,6 +103,5 @@
     border-radius: 50px;
     width: 160px;
     padding: 15px;
-    font-size: 14px;
     margin-top: 40px;
 }
