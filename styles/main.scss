@@ -1,0 +1,219 @@
+.text-left {
+    text-align: left;
+}
+.сols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@mixin subscribe-bg ($num) {
+    .subscribe-#{$num}{
+        background: url(../images/subscribe-#{$num}.png) no-repeat center;
+    } 
+}
+@for $i from 1 to 4 {
+    @include subscribe-bg ($i);
+}
+
+
+.subscribe {
+    width: 350px;
+    height: 580px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    
+    margin-bottom: 50px;
+    text-align: center;
+    p {
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 28px;
+        margin-bottom: 0px;
+        font-weight: normal;
+        margin-top: 25px;
+    }
+}
+.subscribe-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 55%;
+    margin: 25px;
+}
+
+.subscribe-sum {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    h4 {
+        font-size: 60px;
+        padding-right: 11px;
+    }
+}
+.pd-rt-11 {
+    padding-right: 11px;
+}
+.btn-subscribe {
+    text-transform: uppercase;
+    font-size: 28px;
+    border: 4px solid $main-color-font;
+    color: $main-color-font;
+    padding: 5% 18%;
+    &:hover {
+        border-color: $main-color-bg;
+        color: $main-color-bg;
+        cursor: pointer;
+    }
+}
+
+                                    /*NEWS*/
+.news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about-author {
+    width: 45%;
+    h2 {
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: $secondary-color-font;
+    }
+}
+.in-about-author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0 51px;
+    width: 50%;
+    h4{
+        color: $third-color-font;
+    }
+    p {
+        color: $data-color-font;
+    }
+    img {
+        width: 19px;
+    }
+}
+.col {
+    width: 1px;
+    height: 11px;
+    background: $main-color-font;
+}
+.btn-news {
+    background-color: $main-color-bg;
+    border: 1px solid $secondary-color-font;
+    padding: 6px 30px;
+    color: $secondary-color-font;
+    text-transform: uppercase;
+    font-size: 12px;
+    &:hover {
+        color: $main-color-bg;
+        background: $catalog-bt-orange;
+        cursor: pointer;
+    }
+}
+
+                        /*MOBIL*/
+
+.mg-left-135 {
+    margin-left: 135px;
+}
+.btn-mobil {
+    background: $main-color-bt;
+    color: $main-color-font;
+    border-radius: 50px;
+    width: 160px;
+    &:hover {
+        color: $main-color-bg;
+        background: $catalog-bt-orange;
+    }
+}
+
+                    /*CATALOG*/
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    img {
+        width: 50px;
+        margin-right: 15px;
+    }
+    font-size: 14px;
+}
+.album {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    min-width: 220px;
+    max-width: 520px;
+    height: 50px;
+}
+
+.catalog-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+$autors : "A-ha", "Tears_for_Fears", "Duran_Duran", "Jack_Savoretti", "Keane", "Frank_Sinatra", "Paul_Young", "Chris_Rea";
+@mixin new-autor ($autor, $w-autor:250px, $h-autor: 250px,$m-r: 50px, $fz-h6: 20px, $fz-p: 16px) {
+.#{$autor} {
+    background: url("../images/#{$autor}.png");
+    background-size: cover;
+    width: $w-autor;
+    height: $h-autor;
+    margin: 50px $m-r 50px 0;
+    text-align: center;
+    h6 {
+        font-size: $fz-h6;
+        color: $main-color-font;
+        margin: ($h-autor + 15px) 0 10px;
+    }
+    p {
+        font-size: $fz-p;
+    }
+}
+}
+@each $autor in $autors {
+    @include new-autor ($autor);
+}
+
+
+
+.author {
+    width: 250px;
+    margin: 50px 50px 0 0;
+    h6 {
+        font-size: 20px;
+        color: $main-color-font;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+.img-box {
+    position: relative;
+}
+.img-author {
+    height: 250px;
+    width: 250px;
+}
+.img-play {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 10px;
+    left: 15px;
+    filter: invert(1);
+}

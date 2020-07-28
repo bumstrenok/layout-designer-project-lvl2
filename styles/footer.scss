@@ -1,0 +1,47 @@
+.footer{
+    background: $footer-color-bg;
+    padding-top: 80px;
+    color: $four-color-font;
+    & a{
+        color: $four-color-font;
+    }
+}
+.footer-cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 280px;
+    p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    a {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+.line{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: $main-color-font;
+}
+a:hover{
+    color: $main-color-font;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+        font-size: 16px;
+        color: $secondary-color-font;
+    }
+}

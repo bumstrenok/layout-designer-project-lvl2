@@ -1,0 +1,86 @@
+.main-welcome {
+    background: url("../images/banner.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: $main-color-font;
+    padding: 13% 0 11%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+        margin: 10px 0 0;
+    }
+    p {
+        font-size: 18px;
+        margin: 45px 0 40px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.form-welcome {
+    width: 570px;
+}
+.input-welcome {
+    width: 43%;
+    height: 50px;
+    margin-bottom: 30px;
+    background: $input-color-bg;
+    border: 2px solid $input-color-bg;
+    border-radius: 3px;
+    padding-left:20px;
+    align-items: center;
+    color: $main-color-font;
+}
+.btn-welcome {
+    width: 100%;
+    background: $banner-color-bt;
+    border-radius: 3px;
+    color: $main-color-font;
+    &:hover {
+        color: $main-color-bg;
+        background: $catalog-bt-orange;
+    }
+}
+
+                    /*catalog*/
+
+.catalog-welcome {
+    background-image: url("../images/Morten Harket.png");
+    background-size: cover;
+    background-position: center;
+    padding: 280px 0 82px;
+    color: $main-color-font;
+}
+.main-catalog {
+    align-items: flex-start;
+    p {
+        margin: 25px 0 40px;
+    }
+}
+.form-catalog {
+    width: 435px;
+    margin-top: 40px;
+}
+.btn-catalog{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-left: 15px;
+    img {
+        width: 20px;
+        margin-right: 15px;
+    }
+    &:hover {
+        background: $banner-color-bt;
+    }
+}
